@@ -13,7 +13,7 @@ useEffect(()=>{
         const data=await res.json();
         setproduct(data)
     }
-    fetchproduct()
+    fetchproduct();
 },[])
 
 const handleadd=(product)=>{
